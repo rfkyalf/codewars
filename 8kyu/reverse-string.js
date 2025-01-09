@@ -1,0 +1,10 @@
+// title Reversed Strings
+// url https://www.codewars.com/kata/5168bb5dfe9a00b126000018
+
+// function solution(str) {
+//   return str.split('').reverse().join().replaceAll(',', '');
+// }
+
+const solution = (str) => str.split('').reverse().join().replaceAll(',', '');
+
+console.log(solution('tes'));
